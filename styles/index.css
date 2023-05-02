@@ -235,17 +235,28 @@ li a:hover {
     align-items: center;
     margin-top: 3rem;
 }
-
-.telegram a {
-    background: var(--light-color);
-    padding: 12px 20px;
-    color: var(--text-color);
-    letter-spacing: 1px;
-    font-weight: 500;
-    border-radius: 0.5rem;
+.menu-bar{
+    margin: 4rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap:3rem;
 }
 
-.telegram a:hover {
+.circle-btn img{
+    margin-left: 50%;
+    margin-top: auto;
+    transform: translateX(-50%);
+    height: 45px;
+    width: 45px;
+     
+    
+    
+}
+
+.circle-btn :hover {
     background: var(--dark-color);
     transition: 0.3s all linear;
 }
@@ -254,6 +265,7 @@ li a:hover {
     background: var(--light-color);
     padding: 15px;
 }
+
 
 footer {
     text-align: center;
@@ -278,5 +290,7 @@ footer {
     .logo {
         padding: 195px 30px;
     }
-
+    .menu-bar{
+        gap: 1rem;
+    }
 }
